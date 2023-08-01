@@ -1,28 +1,143 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <title>Mi primera página web</title>
-</head>
-<body>
-  <header>
-    <h1>Bienvenido a mi página web</h1>
-  </header>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jenny Paola Ramirez Cuellar - Mi Portafolio</title>
+    <style>
+      /* Estilos para el cuerpo del documento */
+      body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        margin: 0;
+        padding: 0;
+      }
 
-  <nav>
-    <ul>
-      <li><a href="#Inicio">Inicio</a></li>
-      <li><a href="#Acerca de">Acerca de</a></li>
-      <li><a href="#Contacto">Contacto</a></li>
-    </ul>
-  </nav>
+      /* Estilos para el encabezado */
+      header {
+        background-color:#DAA9A4;
+        color: #fff;
+        padding: 1rem;
+        text-align: center;
+      }
 
-  <main>
-    <h2>Sobre mí</h2>
-    <p>Hola, soy Jenny. Bienvenido a mi página web personal.</p>
-  </main>
+      header h1 {
+        margin: 0;
+      }
 
-  <footer>
-    <p>© 2023 Mi Página Web</p>
-  </footer>
-</body>
+      header p {
+        margin: 0;
+        font-size: 1.2rem;
+      }
+
+      /* Estilos para la barra de navegación */
+      nav {
+        background-color: #E6BFBF;
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        padding: 1rem 0;
+      }
+
+      nav a {
+        color: #D2F2E8;
+        margin: 0 1rem;
+        text-decoration:none;
+      }
+
+      /* Estilos para las secciones */
+      section {
+        padding: 2rem;
+      }
+
+      section h2 {
+        margin-top: 0;
+      }
+
+      /* Estilos para la lista de proyectos */
+      section#portfolio ul {
+        list-style: none;
+        padding: 0;
+      }
+
+      section#portfolio li {
+        margin-bottom: 1rem;
+      }
+
+      section#portfolio li a {
+        color: #F49AC2;
+        text-decoration: none;
+      }
+
+      /* Estilos para el pie de página */
+      footer {
+        background-color: #333;
+        color: #a0f7db;
+        text-align: center;
+        padding: 1rem;
+      }
+
+      footer p {
+        margin: 0;
+      }
+
+      /* Estilos para los enlaces */
+      a {
+        color: #007bff;
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+      img{ 
+        width: 100px;
+        height: 100px;
+        border-radius: 150px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Jenny Ramirez</h1>
+      <p>Estudiante de Programación</p>
+    </header>
+    <nav>
+      <a href="#about">Acerca de</a>
+      <a href="#portfolio">Portafolio</a>
+      <a href="#contact">Contacto</a>
+    </nav>
+    <section id="about">
+        <img src="https://images.unsplash.com/photo-1585076641399-5c06d1b3365f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80" >
+      <h2>Acerca de mí</h2>
+      <p>
+        ¡Hola! Soy Jenny Ramirez. Soy una apasionada desarrolladora  con
+        experiencia en php. Me encanta crear sitios web y
+        aplicaciones web interactivas y amigables para el usuario. Siempre estoy
+        buscando nuevos desafíos y aprendiendo cosas nuevas.
+      </p>
+    </section>
+    <section id="portfolio">
+      <h2>Portafolio</h2>
+      <!-- Aquí puedes agregar ejemplos de tus proyectos o enlaces a los mismos -->
+      <ul>
+        <li><a href="#">Proyecto 1</a></li>
+        <li><a href="#">Proyecto 2</a></li>
+        <li><a href="#">Proyecto 3</a></li>
+        <!-- Agrega más proyectos según sea necesario -->
+      </ul>
+    </section>
+    <section id="contact">
+      <h2>Contacto</h2>
+      <p>Puedes contactarme a través de:</p>
+      <ul>
+        <li>Email: yeraypr24@gmail.com/li>
+        <li>Instagram: <a href="#"></a></li>
+        <li>Facebook: <a href="#"></a></li>
+      </ul>
+    </section>
+    <footer>
+      <p>&copy; 2023 Jenny Ramirez. Todos los derechos reservados.</p>
+    </footer>
+  </body>
 </html>
